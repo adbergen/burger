@@ -1,14 +1,8 @@
-INSERT INTO
-    burgers (id, burger_name, devoured)
-Values
-    ("Bacon Cheddar Burger", false);
+USE burgers_db;
 
 INSERT INTO
-    burgers (id, burger_name, devoured)
+    burgers (burger_name, devoured)
 Values
-    ("Turkey Burger", false);
-
-INSERT INTO
-    burgers (id, burger_name, devoured)
-Values
+    ("Bacon Cheddar Burger", false),
+    ("Turkey Burger", false),
     ("Salmon Burger", false);
