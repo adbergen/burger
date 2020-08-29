@@ -11,7 +11,7 @@ $(function () {
       type: "PUT",
       data: newDevourState,
     }).then(function () {
-      consolelog("changed devour to", newDevour);
+      console.log("changed devour to", newDevour);
 
       location.reload();
     });
