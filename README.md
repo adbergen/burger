@@ -1,89 +1,79 @@
-# Burger
+<h1 align="center">
+Employee Management System
+</h1>
+<h4 align="center" style="margin-bottom:10px">Be sure to star my configuration repo so you can keep up to date on any daily progress!</h4>
+<div align="center">
+  <h4>
+    </a>
+    <a href="https://github.com/adbergen/burger/stargazers"><img src="https://img.shields.io/github/stars/adbergen/burger.svg?style=plasticr"/></a>
+    <a href="https://github.com/adbergen/burger/commits/master"><img src="https://img.shields.io/github/last-commit/adbergen/burger.svg?style=plasticr"/></a>
+        <a href="https://github.com/adbergen/burger/commits/master"><img src="https://img.shields.io/github/commit-activity/y/adbergen/burger.svg?style=plasticr"/></a>
+</h4>
+<br>
+</div>
+<p align="center"><font size="3">
+This is a burger logger application</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/adbergen/burger">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://burgerlogging.herokuapp.com/">
+      Heroku Deployment
+    </a>
+  </h4>
+</div>
 
-- This is a burger logger application for logging the burgers you have or have not devoured using Node, Express, Handlebars, ORM, and MySQL.
+![Screenshot of application demo](assets/demo.png)
 
----
+<hr>
 
-![image of demo](/assets/demo.png)
+## Table of Contents
 
-## File Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
 
-```
-.
-├── assets
-│   └── demo.png
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       ├── img
-│       │   └── burger.png
-│       ├── css
-│       │   └── burger_style.css
-│       └── js
-│           └── burgers.js
-│  
-├── server.js
-│
-├── env_sample.txt
-│
-└── views
-    ├── index.handlebars
-    ├── layouts
-    │     └── main.handlebars
-    └── partials
-        └── burgers
-             └── burger-block.handlebars
-```
+<hr>
 
----
+## Installation
 
-## Languages/Technologies Used
+<br>
+Using npm:
 
-- node.js is used as the runtime environment
+<br>
+<br>
 
-- Javascript, JQuery, and JSON are used as the interpreters
+    npm install && npm start
 
-- express.js is used as a back-end component to establish a server and router for the application
+<hr>
 
-- MySQL is used as the database management system
+## Usage
 
-- Handlebars is used for the html templates and expressions
+- This application allows users to log the burgers they have devoured or not devoured
 
-- ORM is used to transfer data stored in relation to the database tables
+<hr>
 
----
+## Technologies
 
-## Requirements Met
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Javascript, JQuery, JSON</li>
+<li>Node.js, express.js, handlebars.js</li>
+<li>MySQL, ORM</li>
+<li>GitHub, Heroku</li>
+</ul>
 
-- Functional, deployed application to gitHub pages and Heroku
+<hr>
 
-- gitHub repository with README describing the project
+## Contributing
 
-- Application allows users to add and view departments, roles, and employees
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-- Application allows users to update employee roles
+- Contributors: Anthony Bergen
 
-- APP, DB, Config, Model, Controller, View aspects setup and working
-
----
-
----
+<hr><hr>
